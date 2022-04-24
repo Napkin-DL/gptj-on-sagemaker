@@ -1,0 +1,12 @@
+{"MetricName": "total_communication_volume(MB)", "Value": 285.28, "Timestamp": 1650541475.7149909}
+{"MetricName": "num_hops_between_devices", "Value": 4.0, "Timestamp": 1650541475.715281}
+{"MetricName": "parameter_count_on_dev_0", "Value": 1933527488.0, "Timestamp": 1650541475.7153141}
+{"MetricName": "module_fraction_on_dev_0", "Value": 0.40835266821345706, "Timestamp": 1650541475.7153356}
+{"MetricName": "parameter_count_on_dev_1", "Value": 1711833088.0, "Timestamp": 1650541475.7153563}
+{"MetricName": "module_fraction_on_dev_1", "Value": 0.5916473317865429, "Timestamp": 1650541475.7153723}
+{"MetricName": "total_communication_volume(MB)", "Value": 4.2, "Timestamp": 1650551471.894133}
+{"MetricName": "num_hops_between_devices", "Value": 3.0, "Timestamp": 1650551471.8943002}
+{"MetricName": "parameter_count_on_dev_0", "Value": 206543296.0, "Timestamp": 1650551471.8943253}
+{"MetricName": "module_fraction_on_dev_0", "Value": 0.04712041884816754, "Timestamp": 1650551471.894352}
+{"MetricName": "parameter_count_on_dev_1", "Value": 75595776.0, "Timestamp": 1650551471.8943698}
+{"MetricName": "module_fraction_on_dev_1", "Value": 0.9528795811518325, "Timestamp": 1650551471.8943899}
