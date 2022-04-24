@@ -650,7 +650,7 @@ def train(
             throughput = sample_processed / step_time
             if smp.rank() == 0 and not total_steps % args.logging_freq:
                 print(
-                    f"({int(time_elapsed)}s), Batch {total_steps - 1} Loss: {loss.item()}, Speed: {throughput} samples/sec"
+                    f"({int(time_elapsed)}s), Batch: {total_steps - 1}, Train loss: {loss.item()}, Train speed: {throughput} samples/sec,"
                 )
 
             # evaluate on validation
@@ -662,10 +662,10 @@ def train(
                 )
                 if is_main_process(smp.rank()):
                     print(
-                        f"({int(time.time()-start)}s) Batch {total_steps - 1} Validation loss: {val_loss}"
+                        f"({int(time.time()-start)}s), Batch: {total_steps - 1}, Validation loss: {val_loss},"
                     )
                     print(
-                        f"({int(time.time()-start)}s) Batch {total_steps - 1} Validation perplexity: {val_ppl}"
+                        f"({int(time.time()-start)}s), Batch: {total_steps - 1}, Validation perplexity: {val_ppl},"
                     )
                 loss_metric = val_loss
                 if args.logits_output:
